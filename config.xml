@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tagbum.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Tagbum</name>
+	<description>Social Media with Rewards</description>
+	<author>Tagamation</author>
+	<content src="index.html"/>
+	<access origin="*"/>
+	<icon platform="ios" src="www/appIcon/180.png" width="180" height="180"/>
+	<icon platform="ios" src="www/appIcon/120.png" width="120" height="120"/>
+	<icon platform="ios" src="www/appIcon/60.png" width="60" height="60"/>
+	<icon platform="ios" src="www/appIcon/152.png" width="152" height="152"/>
+	<icon platform="ios" src="www/appIcon/76.png" width="76" height="76"/>
+	<splash platform="ios" src="www/appSplash/750.png" width="750" height="1334" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/1242.png" width="1242" height="2208" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/640.png" width="640" height="1136" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/640_2.png" width="640" height="960" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/320_IOS.png" width="320" height="480" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/1536.png" width="1536" height="2008" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/768.png" width="768" height="1004" orientation="portrait"/>
+	<splash platform="ios" src="www/appSplash/1334.png" width="1334" height="750" orientation="landscape"/>
+	<splash platform="ios" src="www/appSplash/2208Land.png" width="2208" height="1242" orientation="landscape"/>
+	<splash platform="ios" src="www/appSplash/2048.png" width="2048" height="1496" orientation="landscape"/>
+	<splash platform="ios" src="www/appSplash/1024.png" width="1024" height="748" orientation="landscape"/>
+	<preference name="ios-target" value="8.0"/>
+	<preference name="ios-configuration" value="adhoc"/>
+	<preference name="Orientation" value="portrait"/>
+	<splash platform="ios" src="www/appSplash/2208.png" width="2208" height="1242" orientation="landscape"/>
+	<splash platform="ios" src="www/appSplash/2048.png" width="2048" height="1496" orientation="landscape"/>
+	<splash platform="ios" src="www/appSplash/1334.png" width="1334" height="750" orientation="landscape"/>
+	<splash platform="ios" src="www/appSplash/1024.png" width="1024" height="748" orientation="landscape"/>
+</widget>

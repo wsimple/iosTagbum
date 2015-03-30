@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tagbum.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="ios-package" value="CDVAccelerometer" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Media">
+        <param name="ios-package" value="CDVSound" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="ios-package" value="CDVFileTransfer" />
+    </feature>
+    <feature name="Contacts">
+        <param name="ios-package" value="CDVContacts" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <name>Tagbum</name>
+    <description>Social Media with Rewards</description>
+    <author>Tagamation</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon height="180" platform="ios" src="www/appIcon/180.png" width="180" />
+    <icon height="120" platform="ios" src="www/appIcon/120.png" width="120" />
+    <icon height="60" platform="ios" src="www/appIcon/60.png" width="60" />
+    <icon height="152" platform="ios" src="www/appIcon/152.png" width="152" />
+    <icon height="76" platform="ios" src="www/appIcon/76.png" width="76" />
+    <splash height="1334" orientation="portrait" platform="ios" src="www/appSplash/750.png" width="750" />
+    <splash height="2208" orientation="portrait" platform="ios" src="www/appSplash/1242.png" width="1242" />
+    <splash height="1136" orientation="portrait" platform="ios" src="www/appSplash/640.png" width="640" />
+    <splash height="960" orientation="portrait" platform="ios" src="www/appSplash/640_2.png" width="640" />
+    <splash height="480" orientation="portrait" platform="ios" src="www/appSplash/320_IOS.png" width="320" />
+    <splash height="2008" orientation="portrait" platform="ios" src="www/appSplash/1536.png" width="1536" />
+    <splash height="1004" orientation="portrait" platform="ios" src="www/appSplash/768.png" width="768" />
+    <splash height="1242" orientation="landscape" platform="ios" src="www/appSplash/2208Land.png" width="2208" />
+    <preference name="ios-target" value="8.0" />
+    <preference name="ios-configuration" value="adhoc" />
+    <preference name="Orientation" value="portrait" />
+    <splash height="1242" orientation="landscape" platform="ios" src="www/appSplash/2208.png" width="2208" />
+    <splash height="1496" orientation="landscape" platform="ios" src="www/appSplash/2048.png" width="2048" />
+    <splash height="750" orientation="landscape" platform="ios" src="www/appSplash/1334.png" width="1334" />
+    <splash height="748" orientation="landscape" platform="ios" src="www/appSplash/1024.png" width="1024" />
+</widget>
