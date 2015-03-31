@@ -21,9 +21,15 @@
 	<splash platform="ios" src="www/appSplash/2208Land.png" width="2208" height="1242" orientation="landscape"/>
 	<splash platform="ios" src="www/appSplash/2048.png" width="2048" height="1496" orientation="landscape"/>
 	<splash platform="ios" src="www/appSplash/1024.png" width="1024" height="748" orientation="landscape"/>
-	<preference name="ios-target" value="8.0"/>
+	
+    <preference name="ios-target" value="8.0"/>
 	<preference name="ios-configuration" value="adhoc"/>
 	<preference name="Orientation" value="portrait"/>
+    
+    <preference name="StatusBarOverlaysWebView" value="false"/>
+    <preference name="StatusBarBackgroundColor" value="#000000"/>
+    <preference name="StatusBarStyle" value="blackopaque" />
+    
 	<splash platform="ios" src="www/appSplash/2208.png" width="2208" height="1242" orientation="landscape"/>
 	<splash platform="ios" src="www/appSplash/2048.png" width="2048" height="1496" orientation="landscape"/>
 	<splash platform="ios" src="www/appSplash/1334.png" width="1334" height="750" orientation="landscape"/>

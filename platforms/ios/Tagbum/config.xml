@@ -43,6 +43,12 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <name>Tagbum</name>
     <description>Social Media with Rewards</description>
     <author>Tagamation</author>
@@ -64,6 +70,9 @@
     <preference name="ios-target" value="8.0" />
     <preference name="ios-configuration" value="adhoc" />
     <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="blackopaque" />
     <splash height="1242" orientation="landscape" platform="ios" src="www/appSplash/2208.png" width="2208" />
     <splash height="1496" orientation="landscape" platform="ios" src="www/appSplash/2048.png" width="2048" />
     <splash height="750" orientation="landscape" platform="ios" src="www/appSplash/1334.png" width="1334" />

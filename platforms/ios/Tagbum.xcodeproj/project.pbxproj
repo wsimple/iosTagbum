@@ -60,6 +60,7 @@
 		DA7122D3D69249EF85675D2F /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE35F58EE745F9AF39574A /* CDVConnection.m */; };
 		E0F10EC6093F497F886A526B /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 132CAF814736444392F7D76C /* CDVFileTransfer.m */; };
 		F4A33D1A34E84A74A517E67F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85091FE0AD6E45CCB28A9A04 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD01E02DE38A4CB79E14CD2C /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 41843707E0EA4F92BC8D4243 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,8 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Tagbum/config.xml; sourceTree = "<group>"; };
 		FFECDBB1523142C88BE995BD /* AddressBookUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		41843707E0EA4F92BC8D4243 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		7F244B7FCCB04919B97DE135 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +304,8 @@
 				91478D46950E49AFAE1E0869 /* CDVContact.h */,
 				5F828A12C314481C962A82E5 /* CDVInAppBrowser.m */,
 				A33122AE67104D4C944CC85D /* CDVInAppBrowser.h */,
+				41843707E0EA4F92BC8D4243 /* CDVStatusBar.m */,
+				7F244B7FCCB04919B97DE135 /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = Tagbum/Plugins;
@@ -505,6 +510,7 @@
 				2682BE909F1445DE8A5FB535 /* CDVContacts.m in Sources */,
 				64F20698882A4DED81B87623 /* CDVContact.m in Sources */,
 				6ED5AD23CA91441EA9A5EC82 /* CDVInAppBrowser.m in Sources */,
+				FD01E02DE38A4CB79E14CD2C /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
